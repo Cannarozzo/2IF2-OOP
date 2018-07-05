@@ -1,0 +1,13 @@
+[05-Jul-2018 23:32:12 UTC] PHP Warning:  require(src/GenericDAO.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoaCadastro.php on line 4
+[05-Jul-2018 23:32:12 UTC] PHP Stack trace:
+[05-Jul-2018 23:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoaCadastro.php:0
+[05-Jul-2018 23:32:12 UTC] PHP Fatal error:  require(): Failed opening required 'src/GenericDAO.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoaCadastro.php on line 4
+[05-Jul-2018 23:32:12 UTC] PHP Stack trace:
+[05-Jul-2018 23:32:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoaCadastro.php:0
+[05-Jul-2018 23:32:34 UTC] PHP Fatal error:  Call to a member function getCPF() on a non-object in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/src/PessoaDAO.php on line 10
+[05-Jul-2018 23:32:34 UTC] PHP Stack trace:
+[05-Jul-2018 23:32:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoaCadastro.php:0
+[05-Jul-2018 23:32:34 UTC] PHP   2. GenericDAO->inserirObjeto() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoaCadastro.php:12
+[05-Jul-2018 23:34:02 UTC] PHP Fatal error:  Class 'PessoaDAO' not found in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoaCadastro.php on line 10
+[05-Jul-2018 23:34:02 UTC] PHP Stack trace:
+[05-Jul-2018 23:34:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoaCadastro.php:0
