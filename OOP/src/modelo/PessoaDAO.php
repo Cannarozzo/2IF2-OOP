@@ -1,7 +1,8 @@
 <?php
 //include_once "../conexao.php"; // transformá-lo em uma classe
 //include_once "conexao.php";
-include_once "FabricaConexao.php";
+include_once __DIR__."/../controlador/FabricaConexao.php";
+
 class PessoaDAO{
     
     public function inserirObjeto(Pessoa $objeto){

@@ -1,6 +1,14 @@
 <?php
-require("src/Pessoa.php"); // importa a classe Pessoa.php
-require("src/PessoaDAO.php"); // importa a classe PessoaDAO.php para operações no banco de dados relacionadas a esta classe.
+/*
+$raiz = $_SERVER["DOCUMENT_ROOT"]."2IF2-TP2-PHP/OOP/";
+echo $raiz;
+echo "</br>";
+include_once $raiz."src/modelo/Pessoa.php";
+include_once $raiz."src/modelo/PessoaDAO.php";
+*/
+require(__DIR__."/../modelo/Pessoa.php"); // importa a classe Pessoa.php
+require(__DIR__."/../modelo/PessoaDAO.php"); // importa a classe PessoaDAO.php para operações no banco de dados relacionadas a esta classe.
+
 
 $nome = $_POST["nome"]; // Extrai o valor do parâmetro da querystring de nome "nome";
 $cpf = $_POST["cpf"]; // Extrai o valor do parâmetro de requisição(query String) de nome "cpf";

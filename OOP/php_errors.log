@@ -30,3 +30,21 @@
 [04-Jul-2018 04:44:25 UTC] PHP Fatal error:  require(): Failed opening required 'Pessoa.class.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/PHP/CRUD/src/teste.php on line 3
 [04-Jul-2018 04:44:25 UTC] PHP Stack trace:
 [04-Jul-2018 04:44:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/PHP/CRUD/src/teste.php:0
+[06-Jul-2018 06:13:12 UTC] PHP Warning:  include_once(src/PessoaDAO.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/controlador/PessoasListar.php on line 2
+[06-Jul-2018 06:13:12 UTC] PHP Stack trace:
+[06-Jul-2018 06:13:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/controlador/PessoasListar.php:0
+[06-Jul-2018 06:13:12 UTC] PHP Warning:  include_once(): Failed opening 'src/PessoaDAO.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/controlador/PessoasListar.php on line 2
+[06-Jul-2018 06:13:12 UTC] PHP Stack trace:
+[06-Jul-2018 06:13:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/controlador/PessoasListar.php:0
+[06-Jul-2018 06:13:12 UTC] PHP Fatal error:  Class 'PessoaDAO' not found in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/controlador/PessoasListar.php on line 4
+[06-Jul-2018 06:13:12 UTC] PHP Stack trace:
+[06-Jul-2018 06:13:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/controlador/PessoasListar.php:0
+[06-Jul-2018 06:15:03 UTC] PHP Warning:  include_once(src/PessoaDAO.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/controlador/PessoasListar.php on line 2
+[06-Jul-2018 06:15:03 UTC] PHP Stack trace:
+[06-Jul-2018 06:15:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/controlador/PessoasListar.php:0
+[06-Jul-2018 06:15:03 UTC] PHP Warning:  include_once(): Failed opening 'src/PessoaDAO.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/controlador/PessoasListar.php on line 2
+[06-Jul-2018 06:15:03 UTC] PHP Stack trace:
+[06-Jul-2018 06:15:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/controlador/PessoasListar.php:0
+[06-Jul-2018 06:15:03 UTC] PHP Fatal error:  Class 'PessoaDAO' not found in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/controlador/PessoasListar.php on line 4
+[06-Jul-2018 06:15:03 UTC] PHP Stack trace:
+[06-Jul-2018 06:15:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/controlador/PessoasListar.php:0

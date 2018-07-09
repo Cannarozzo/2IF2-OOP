@@ -11,3 +11,42 @@
 [05-Jul-2018 23:34:02 UTC] PHP Fatal error:  Class 'PessoaDAO' not found in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoaCadastro.php on line 10
 [05-Jul-2018 23:34:02 UTC] PHP Stack trace:
 [05-Jul-2018 23:34:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoaCadastro.php:0
+[09-Jul-2018 22:59:54 UTC] PHP Warning:  include_once(FabricaConexao.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/src/PessoaDAO.php on line 4
+[09-Jul-2018 22:59:54 UTC] PHP Stack trace:
+[09-Jul-2018 22:59:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:0
+[09-Jul-2018 22:59:54 UTC] PHP   2. include_once() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:2
+[09-Jul-2018 22:59:54 UTC] PHP Warning:  include_once(): Failed opening 'FabricaConexao.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/src/PessoaDAO.php on line 4
+[09-Jul-2018 22:59:54 UTC] PHP Stack trace:
+[09-Jul-2018 22:59:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:0
+[09-Jul-2018 22:59:54 UTC] PHP   2. include_once() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:2
+[09-Jul-2018 22:59:54 UTC] PHP Fatal error:  Class 'FabricaConexao' not found in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/src/PessoaDAO.php on line 18
+[09-Jul-2018 22:59:54 UTC] PHP Stack trace:
+[09-Jul-2018 22:59:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:0
+[09-Jul-2018 22:59:54 UTC] PHP   2. PessoaDAO->listarPessoas() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:6
+[09-Jul-2018 23:04:30 UTC] PHP Warning:  include_once(/home/ubuntu/workspace/2IF2-TP2-PHP/OOP/src/PessoaDAO.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php on line 2
+[09-Jul-2018 23:04:30 UTC] PHP Stack trace:
+[09-Jul-2018 23:04:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:0
+[09-Jul-2018 23:04:30 UTC] PHP Warning:  include_once(): Failed opening '/home/ubuntu/workspace/2IF2-TP2-PHP/OOP/src/PessoaDAO.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php on line 2
+[09-Jul-2018 23:04:30 UTC] PHP Stack trace:
+[09-Jul-2018 23:04:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:0
+[09-Jul-2018 23:04:30 UTC] PHP Fatal error:  Class 'PessoaDAO' not found in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php on line 4
+[09-Jul-2018 23:04:30 UTC] PHP Stack trace:
+[09-Jul-2018 23:04:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:0
+[09-Jul-2018 23:04:40 UTC] PHP Warning:  include_once(src/PessoaDAO.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php on line 2
+[09-Jul-2018 23:04:40 UTC] PHP Stack trace:
+[09-Jul-2018 23:04:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:0
+[09-Jul-2018 23:04:40 UTC] PHP Warning:  include_once(): Failed opening 'src/PessoaDAO.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php on line 2
+[09-Jul-2018 23:04:40 UTC] PHP Stack trace:
+[09-Jul-2018 23:04:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:0
+[09-Jul-2018 23:04:40 UTC] PHP Fatal error:  Class 'PessoaDAO' not found in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php on line 4
+[09-Jul-2018 23:04:40 UTC] PHP Stack trace:
+[09-Jul-2018 23:04:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:0
+[09-Jul-2018 23:05:13 UTC] PHP Warning:  include_once(src/modelo/PessoaDAO.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php on line 2
+[09-Jul-2018 23:05:13 UTC] PHP Stack trace:
+[09-Jul-2018 23:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:0
+[09-Jul-2018 23:05:13 UTC] PHP Warning:  include_once(): Failed opening 'src/modelo/PessoaDAO.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php on line 2
+[09-Jul-2018 23:05:13 UTC] PHP Stack trace:
+[09-Jul-2018 23:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:0
+[09-Jul-2018 23:05:13 UTC] PHP Fatal error:  Class 'PessoaDAO' not found in /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php on line 4
+[09-Jul-2018 23:05:13 UTC] PHP Stack trace:
+[09-Jul-2018 23:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/2IF2-TP2-PHP/OOP/PessoasListar.php:0
