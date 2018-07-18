@@ -18,7 +18,7 @@ class PessoaDAO{
     public function listarPessoas(){
         $conexao = FabricaConexao::pegarConexao();
         $rs = $conexao->query("Select * from tb_Pessoa");
-	
+	    /*
     	while($row = $rs->fetch(PDO::FETCH_OBJ))
     	{
     		echo $row->cd_pessoa."<br>";
@@ -26,9 +26,18 @@ class PessoaDAO{
     		echo $row->cpf_pessoa."<br>";
     		echo "<br><hr><br>";
     	}
+    	*/
+    	return $rs;
     }
+    
+    
+    public function buscarPessoa(Pessoa $pessoa){
+        $conexao = FabricaConexao::pegarConexao();
+        $rs = $conexao->query("Select * From tb_Pessoa where cd_pessoa = '".$pessoa->getId()."'"); 
+        
+        return $rs;
+    }
+    
 }
-
-
 
 ?>

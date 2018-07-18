@@ -22,6 +22,12 @@ class Pessoa{
         $this->cpf = $cpf;
     }
     
+    
+    
+    public function getId(){
+        return $this->id;
+    }
+    
     public function getNome(){
         return $this->nome;
     }
